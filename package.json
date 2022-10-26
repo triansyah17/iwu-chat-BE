@@ -2,13 +2,13 @@
   "name": "iwu-chat",
   "version": "1.0.0",
   "description": "I With U-Chat",
-  "main": "index.js",
+  "main": "server.js",
   "engine": {
     "node": "16.x"
   },
   "scripts": {
-    "dev": "nodemon index.js",
-    "start": "node index.js"
+    "dev": "nodemon server.js",
+    "start": "node server.js"
   },
   "keywords": [
     "ExpressJS",
@@ -16,7 +16,7 @@
     "PostgreSQL"
   ],
   "author": "triansyah17",
-  "license": "",
+  "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.0.1",
     "cors": "^2.8.5",
